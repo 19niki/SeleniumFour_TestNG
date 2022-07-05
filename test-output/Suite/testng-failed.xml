@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="Baseurl" value="https://courses.letskodeit.com/practice"/>
+  <parameter name="username" value="niki"/>
+  <listeners>
+    <listener class-name="Annotations.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="Annotations.Test1">
+        <methods>
+          <include name="sub"/>
+        </methods>
+      </class> <!-- Annotations.Test1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
