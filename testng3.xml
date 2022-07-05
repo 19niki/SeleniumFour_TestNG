@@ -17,6 +17,7 @@
      <class name = "Annotations.Test1"/>
      <class name = "Annotations.Test2"/> 
       <class name = "Annotations.Test3"/>
+      <class name = "Annotations.Test4"/>
   </classes>
   </test>  
   

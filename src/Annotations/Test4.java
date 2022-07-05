@@ -13,9 +13,9 @@ import com.beust.jcommander.Parameter;
 
 public class Test4 {
 	
-	@Test
-	@Parameters({"Baseurl","username"})
 	
+	@Parameters({"Baseurl","username"})
+	@Test
 	public void before(String urlName, String username)
 	{
 		
