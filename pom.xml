@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>SeleniumFour_Test_NG</groupId>
-  <artifactId>SeleniumSix</artifactId>
+  <artifactId>SeleniumFour_Test_NG</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>SeleniumSix</name>
+  <name>SeleniumFour_Test_NG</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
