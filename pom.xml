@@ -5,10 +5,10 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>SeleniumFour_Test_NG</groupId>
-  <artifactId>SeleniumFour_Test_NG</artifactId>
+  <artifactId>SeleniumSix</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
-  <name>SeleniumFour_Test_NG</name>
+  <name>SeleniumSix</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
@@ -32,7 +32,9 @@
 </dependency>
   </dependencies>
   
- 
+  <profiles>
+  <profile>
+  <id>Smoke</id>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
@@ -88,7 +90,8 @@
       </plugins>
     </pluginManagement>
   </build>
-
+  </profile>
+  </profiles>
 
   
 </project>
